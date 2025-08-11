@@ -1,0 +1,21 @@
+{
+  "clubName": "Intense Fitness",
+  "location": "Ижевск",
+  "trainers": [
+    {
+      "name": "Иван Петров",
+      "specialization": "Бокс",
+      "experienceYears": 8
+    },
+    {
+      "name": "Мария Смирнова",
+      "specialization": "Функциональный тренинг",
+      "experienceYears": 5
+    },
+    {
+      "name": "Дмитрий Соколов",
+      "specialization": "Йога",
+      "experienceYears": 4
+    }
+  ]
+}

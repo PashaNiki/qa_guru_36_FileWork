@@ -46,7 +46,7 @@ public class ZipArchiveFilesTest {
     }
 
     @Test
-    @DisplayName("PDF из архива: проверка количества страниц")
+    @DisplayName("PDF из архива проверка количества страниц")
     void pdfFromZip() throws Exception {
         boolean found = false;
         try (ZipInputStream zip = openZip()) {
@@ -64,7 +64,7 @@ public class ZipArchiveFilesTest {
     }
 
     @Test
-    @DisplayName("XLSX из архива: проверка шапки и значений")
+    @DisplayName("XLSX из архива проверка шапки и значений")
     void xlsxFromZip() throws Exception {
         boolean found = false;
         try (ZipInputStream zip = openZip()) {
@@ -96,7 +96,7 @@ public class ZipArchiveFilesTest {
     }
 
     @Test
-    @DisplayName("CSV из архива: UTF-8 и разделитель ';'")
+    @DisplayName("CSV из архива UTF-8 и разделитель ';'")
     void csvFromZip() throws Exception {
         boolean found = false;
         try (ZipInputStream zip = openZip()) {
